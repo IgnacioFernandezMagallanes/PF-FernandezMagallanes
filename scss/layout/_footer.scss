@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    background-color: $background-color-footer;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+  
+    section {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  
+      ul {
+        display: flex;
+        padding: 10px;
+  
+        li {
+          padding: 10px;
+        }
+      }
+    }
+  }

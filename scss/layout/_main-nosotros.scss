@@ -1,0 +1,21 @@
+.nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.nosotros img{
+    width: 600px;
+    height: 400px;
+    margin: 5px
+}
+
+.nosotros p{
+    display: flex;
+    font-size: 17px;
+    padding: 20px 40px 20px 40px;
+    background-color: rgba(0, 0, 0, 0.15);
+    margin: 5px;
+}

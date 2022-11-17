@@ -1,0 +1,103 @@
+@media (max-width: 768px) {
+  header {
+    font-size: 17px;
+
+    a img {
+      width: 32px;
+      height: 32px;
+    }
+
+    h3 {
+      display: none;
+    }
+  }
+  .carrusel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    gap: 1%;
+
+    a img {
+      width: 300px;
+      height: 190px;
+    }
+  }
+
+  .promosGrid {
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "1 2"
+      "3 4";
+    gap: 10px;
+
+    img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "1 2"
+      "3 4"
+      "5 6";
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    img {
+      width: 250px;
+      height: 100px;
+      object-fit: cover;
+    }
+
+    p {
+      font-size: 15px;
+      align-items: center;
+      padding: 15px 20pz 15px 20px;
+    }
+  }
+
+  .maps {
+    width: 250px;
+    height: 300px;
+  }
+
+  .delivery {
+    h2 {
+      font-size: 22px;
+    }
+    a {
+      font-size: 17px;
+    }
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  .nosotros{
+    img{
+      width: 400px;
+      height: 250px;
+      margin: 5px
+    }
+    p{
+      font-size: 15px;
+    }
+  } 
+}

@@ -1,0 +1,51 @@
+fieldset{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+    border: 0;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+    input{
+        width: 500px;
+        height: 50px;
+        font-size: 20px;
+        padding: 5px;
+        &:hover{
+            background-color: rgba(0, 0, 0, 0.15);           
+        }
+    }
+    textarea{
+        width: 500px;
+        height: 500px;
+        font-size: 20px;
+        &:hover{
+            background-color: rgba(0, 0, 0, 0.15);           
+        }
+    }
+}
+
+.botonOpinion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #85B6ff;
+    margin-left: 48%;
+    margin-top: 20px;
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+}
+
+.agradecimiento{
+    text-align: center;
+    padding: 80px;
+    margin-top: 50px;
+
+}

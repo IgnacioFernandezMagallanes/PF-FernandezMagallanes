@@ -1,5 +1,18 @@
-main{
-    h1{
-        background-color: blue;
-    }
-}
+@import "./base/typo.scss";
+@import "./base/reset";
+@import "./utilities/variables";
+
+
+@import "./layout/body";
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/main-index";
+@import "./layout/main-menu";
+@import "./layout/main-nosotros";
+@import "./layout/main-contacto";
+@import "./layout/main-opinion";
+@import "./layout/footer";
+
+
+@import "./layout/media-mobile";
+@import "./layout/media-tablet";
